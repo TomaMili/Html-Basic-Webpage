@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Kontakt stranica">
+        <meta name="author" content="Toma Milićević">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="../Images/kontakt.webp" type="image/x-icon">
+        <link rel="stylesheet" href="kontakt.css">
+        <title>Kontakt</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../naslovnica.html">HOME</a></li>
+                    <li><a href="../o_nama.html">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <h1>Contact</h1>
+        </header>
+        <div id="divmain">
+            <form>
+                <table>
+                    <caption>User poll</caption>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="ime" size="25" maxlength="10"></td>
+                    </tr>
+                    <tr>	
+                        <td>Surname:</td>
+                        <td><input type="text" name="prezime" size="25" maxlength="15"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td><input type="radio" name="spol" value="male">&nbsp;male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="spol" value="female">&nbsp;female</td>
+                    </tr>
+                    <tr><td>Favourite team</td>
+                        <td><input type="checkbox" value="Red Bull" name="team">&nbsp;Red Bull<br>
+                            <input type="checkbox" value="Ferrari" name="team">&nbsp;Ferrari<br>
+                            <input type="checkbox" value="Mercedes" name="team">&nbsp;Mercedes<br>
+                            <input type="checkbox" value="Alpine" name="team">&nbsp;Alpine<br>
+                            <input type="checkbox" value="Alfa Romeo" name="team">&nbsp;Alfa Romeo<br>
+                            <input type="checkbox" value="Mclaren" name="team">&nbsp;Mclaren<br>
+                            <input type="checkbox" value="Torro Rosso" name="team">&nbsp;Torro Rosso<br>
+                            <input type="checkbox" value="Haas" name="team">&nbsp;Haas<br>
+                            <input type="checkbox" value="Williams" name="team">&nbsp;Williams<br>
+                            <input type="checkbox" value="Aston Martin" name="team">&nbsp;Aston Martin<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td>
+                        <select name="age">
+                            <option value="0" disabled >(please choose)</option>
+                            <option value="1">16 or under</option>
+                            <option value="2" selected>16-18</option>
+                            <option value="3">18-20</option>
+                            <option value="4">20+</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail:</td>
+                        <td>
+                            <a href="mailto:tmilicev1@tvz.hr?
+                            subject=Javljanje&
+                            body=Pozdrav">SEND E-MAIL</a>
+                        </td>
+                    </tr>
+                    <tr>	
+                        <td>Message:</td>
+                        <td><textarea cols="25" rows="5" name="message"></textarea></td>
+                    </tr>
+                    <tr>	
+                        <td></td>
+                        <td>
+                            <input type="submit" name="ok" value="Send">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <footer>
+            <p>Toma Milićević - 123123123123</p>
+        </footer>       
+    </body>
+</html>

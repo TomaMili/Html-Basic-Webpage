@@ -1,0 +1,267 @@
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 1px;
+}
+body{
+    background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+    margin: 2px 0 0 0;
+    padding: 0px;
+    border: 0px;
+    
+}
+h1{
+    font-size: 150px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+h2{
+    font-size: 60px;
+    color: grey;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h3{
+    margin: 35px;
+    color: white;
+}
+p{
+    position: relative;
+    top: -160px;
+    padding: 0px 25px;
+    font-size: 25px;
+}
+section ul{
+    position: relative;
+    color: white;
+    left: 230px;
+    top: -190px;
+    list-style-type: circle;
+    color: ivory;
+    width: 330px;
+}
+article{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.figure2{
+    position: relative;
+    top: -140px;
+}
+#red_bull{
+    background-color: rgb(0,18,32,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#red_bull2{
+    background-color: rgb(0,18,32,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+#ferrari{
+    background-color: rgb(178,0,0,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#ferrari2{
+    background-color: rgb(178,0,0,255);
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+#mercedes{
+    background-color: rgb(0,0,0,255);   
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+}
+#mercedes2{
+    background-color: rgb(0,0,0,255);   
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    height: 2050px;
+}
+.drivers1{
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+.first_driver{
+    position: relative;
+    color: white;
+    left: 245px;
+    top: -190px;
+    font-size: 35px;
+    width: 200px;
+}
+.second_driver{
+    position: relative;
+    top: -140px;
+}
+.clear{
+    clear: both;
+}
+.formula_picture{
+    width: 638px;
+    float: left;
+    top: -50px;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 28px;
+    color: whitesmoke;
+}
+th, td{
+    height: 50px;
+    text-align: center;
+}
+table, th, td {
+    border: 2px dashed black;
+    border-collapse: collapse;
+}
+#red_bull2 th:hover, #red_bull2 td:hover{
+    background-color: rgb(0,29,51,255);
+}
+#red_bull2 table{
+    background-color: rgb(0,18,32,255);
+}
+#ferrari2 th:hover, #ferrari2 td:hover{
+    background-color: rgb(178,0,0,255);
+}
+#ferrari2 table{
+    background-color: rgb(158,0,0,255);
+}
+#mercedes2 th:hover, #mercedes2 td:hover{
+    background-color: rgb(13, 13, 13);
+}
+#mercedes2 table{
+    background-color: rgb(0,0,0,255);
+}
+#mercedes2 table, #mercedes2 th, #mercedes2 td{
+    border: 2px dashed whitesmoke;
+}
+/* #nav1 button{
+    float: left;
+    margin: 0;
+    height: 50px;
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 20px;
+    width: 200px;
+}
+#nav2 button{
+    float: right;
+    margin: 0;
+    height: 50px;
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 20px;
+    width: 200px;
+}
+#blackbox{
+    position: absolute;
+    margin-left: 602px;
+    top: 2px;
+    height: 48px;
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 20px;
+    width: 710px;
+}
+#nav1 button:hover, #nav2 button:hover{
+    background-color: rgb(44,44,44);
+}
+nav{
+    height: 0;
+} */
+nav a{
+    display: block;
+    width: 2px;
+    padding: 20px 40px 20px 40px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav a:link, nav a:visited{
+    height: 40px;
+    background-color: rgb(27,27,27,255);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    line-height: 160%;
+    color: white;
+    width: 90%;
+    font-size: 26px;
+}
+nav a:hover{
+    background-color: rgb(44,44,44);
+
+}
+
+.div3{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+#tablica{
+    position: absolute;
+    z-index: 10;
+    left: 94px;
+    top: 3700px;
+}
+#tablica table, #tablica th, #tablica td{
+    border: whitesmoke 2px solid;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+}
+#tablica table:hover, #tablica th:hover, #tablica td:hover{
+    background-color: rgb(44,44,44);
+}
+footer{
+    background-color:rgb(27,27,27,255);
+    color: whitesmoke;
+    border: rgb(44,44,44) solid 1px;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: -3400px;
+    height: 50px;
+    width: 99%;
+}
+footer p{
+    position: absolute;
+    top: 0;
+    left: 750px;
+    font-size: 30px;
+    line-height: 200%;
+}
